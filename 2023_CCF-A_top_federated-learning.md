@@ -12,41 +12,39 @@
 
 ### AAAI
 
-| paper                                                        | authors             | code                                                         |
-| ------------------------------------------------------------ | ------------------- | ------------------------------------------------------------ |
-| [Untargeted Attack against Federated Recommendation Systems via Poisonous Item Embeddings and the Defense](https://ojs.aaai.org/index.php/AAAI/article/view/25611) | Yang Yu             | [url](https://github.com/yflyl613/FedRec)                    |
-| [Federated Robustness Propagation: Sharing Adversarial Robustness in Heterogeneous Federated Learning](https://ojs.aaai.org/index.php/AAAI/article/view/25955) | Junyuan Hong        | [url](https://github.com/illidanlab/FedRBN)                  |
-| [Poisoning with Cerberus: Stealthy and Colluded Backdoor Attack against Federated Learning](https://ojs.aaai.org/index.php/AAAI/article/view/26083) | Xiaoting Lyu        | [url](https://github.com/xtlyu/CerP)                         |
-| [FedMDFG: Federated Learning with Multi-Gradient Descent and Fair Guidance](https://ojs.aaai.org/index.php/AAAI/article/view/26122) | Zibin Pan           | [url](https://github.com/zibinpan/FedMDFG)                   |
-| [Federated Learning on Non-IID Graphs via Structural Knowledge Sharing](https://ojs.aaai.org/index.php/AAAI/article/view/26187) | Yue Tan             | [url](https://github.com/yuetan031/FedStar)                  |
-| [FedGS: Federated Graph-Based Sampling with Arbitrary Client Availability](https://ojs.aaai.org/index.php/AAAI/article/view/26223) | Zheng Wang          | [url](https://github.com/WwZzz/FedGS)                        |
-| [FedNP: Towards Non-IID Federated Learning via Federated Neural Propagation](https://ojs.aaai.org/index.php/AAAI/article/view/26237) | Xueyang Wu          | [url](https://github.com/CodePothunter/fednp)                |
-| [Bayesian Federated Neural Matching That Completes Full Information](https://ojs.aaai.org/index.php/AAAI/article/view/26245) | Peng Xiao           | [url;](https://github.com/XiaoPeng24/NAFI)                   |
-| [CDMA: A Practical Cross-Device Federated Learning Algorithm for General Minimax Problems](https://ojs.aaai.org/index.php/AAAI/article/view/26246) | Jiahao Xie          | [url](https://github.com/xjiajiahao/federated-minimax)       |
-| [FedALA: Adaptive Local Aggregation for Personalized Federated Learning](https://ojs.aaai.org/index.php/AAAI/article/view/26330) | Jianqing Zhang      | [url](https://github.com/TsingZ0/FedALA)                     |
-| [DPAUC: Differentially Private AUC Computation in Federated Learning](https://ojs.aaai.org/index.php/AAAI/article/view/26770) | Jiankai Sun         | [url](https://github.com/bytedance/fedlearner/tree/master/example/privacy/DPAUC) |
-| [Clustered Federated Learning for Heterogeneous Data (Student Abstract)](https://ojs.aaai.org/index.php/AAAI/article/view/27049) | Xue Yu              | none                                                         |
-| [MGIA: Mutual Gradient Inversion Attack in Multi-Modal Federated Learning (Student Abstract)](https://ojs.aaai.org/index.php/AAAI/article/view/26995) | Xuan Liu            | none                                                         |
-| [A Federated Learning Monitoring Tool for Self-Driving Car Simulation (Student Abstract)](https://ojs.aaai.org/index.php/AAAI/article/view/26984) | Taejoon Lee         | none                                                         |
-| [Industry-Scale Orchestrated Federated Learning for Drug Discovery](https://ojs.aaai.org/index.php/AAAI/article/view/26847) | Martijn Oldenhof    | none                                                         |
-| [Efficient Training of Large-Scale Industrial Fault Diagnostic Models through Federated Opportunistic Block Dropout](https://arxiv.org/abs/2302.11485) | Yuanyuan Chen       | none                                                         |
-| [Echo of Neighbors: Privacy Amplification for Personalized Private Federated Learning with Shuffle Model](https://arxiv.org/abs/2304.05516) | Yixuan Liu          | none                                                         |
-| [On the Vulnerability of Backdoor Defenses for Federated Learning](https://arxiv.org/abs/2301.08170) | Pei Fang            | none                                                         |
-| [Delving into the Adversarial Robustness of Federated Learning](https://arxiv.org/abs/2302.09479) | Jie Zhang           | none                                                         |
-| [DeFL: Defending against Model Poisoning Attacks in Federated Learning via Critical Learning Periods Awareness](https://ojs.aaai.org/index.php/AAAI/article/view/26271) | Gang Yan            | none                                                         |
-| [Federated Generative Model on Multi-Source Heterogeneous Data in IoT](https://ojs.aaai.org/index.php/AAAI/article/view/26252) | Zuobin Xiong        | none                                                         |
-| [Faster Adaptive Federated Learning](https://ojs.aaai.org/index.php/AAAI/article/view/26235) | Xidong Wu           | none                                                         |
-| [Beyond ADMM: A Unified Client-Variance-Reduced Adaptive Federated Learning Framework](https://ojs.aaai.org/index.php/AAAI/article/view/26212) | Shuai Wang          | none                                                         |
-| [FedABC: Targeting Fair Competition in Personalized Federated Learning](https://arxiv.org/abs/2302.07450) | Dui Wang            | none                                                         |
-| [Efficient Distribution Similarity Identification in Clustered Federated Learning via Principal Angles between Client Data Subspaces](https://ojs.aaai.org/index.php/AAAI/article/view/26197) | Saeed Vahidian      | none                                                         |
-| [Securing Secure Aggregation: Mitigating Multi-Round Privacy Leakage in Federated Learning](https://ojs.aaai.org/index.php/AAAI/article/view/26177) | Jinhyun So          | none                                                         |
-| [Layer-Wise Adaptive Model Aggregation for Scalable Federated Learning](https://ojs.aaai.org/index.php/AAAI/article/view/26023) | Sunwoo Lee          | none                                                         |
-| [Almost Cost-Free Communication in Federated Best Arm Identification](https://arxiv.org/abs/2208.09215) | Kota Srinivas Reddy | none                                                         |
-| [Complement Sparsification: Low-Overhead Model Pruning for Federated Learning](https://arxiv.org/abs/2303.06237) | Xiaopeng Jiang      | none                                                         |
-| [FairFed: Enabling Group Fairness in Federated Learning](https://ojs.aaai.org/index.php/AAAI/article/view/25911) | Yahya H. Ezzeldin   | none                                                         |
-| [Tackling Data Heterogeneity in Federated Learning with Class Prototypes](https://ojs.aaai.org/index.php/AAAI/article/view/25891) | Yutong Dai          | none                                                         |
-| [Incentive-Boosted Federated Crowdsourcing](https://ojs.aaai.org/index.php/AAAI/article/view/25744) | Xiangping Kang      | none                                                         |
-| [Win-Win: A Privacy-Preserving Federated Framework for Dual-Target Cross-Domain Recommendation](https://ojs.aaai.org/index.php/AAAI/article/view/25531) | Gaode Chen          | none                                                         |
+* Untargeted Attack against Federated Recommendation Systems via Poisonous Item Embeddings and the Defense [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/25611) [code](https://github.com/yflyl613/FedRec)
+* Federated Robustness Propagation: Sharing Adversarial Robustness in Heterogeneous Federated Learning [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/25955) [code](https://github.com/illidanlab/FedRBN)
+* Poisoning with Cerberus: Stealthy and Colluded Backdoor Attack against Federated Learning [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26083) [code](https://github.com/xtlyu/CerP)
+* FedMDFG: Federated Learning with Multi-Gradient Descent and Fair Guidance [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26122) [code](https://github.com/zibinpan/FedMDFG)
+* Federated Learning on Non-IID Graphs via Structural Knowledge Sharing [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26187) [code](https://github.com/yuetan031/FedStar)
+* FedGS: Federated Graph-Based Sampling with Arbitrary Client Availability [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26223) [code](https://github.com/WwZzz/FedGS)
+* FedNP: Towards Non-IID Federated Learning via Federated Neural Propagation [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26237) [code](https://github.com/CodePothunter/fednp)
+* Bayesian Federated Neural Matching That Completes Full Information [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26245) [code](https://github.com/XiaoPeng24/NAFI)
+* CDMA: A Practical Cross-Device Federated Learning Algorithm for General Minimax Problems [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26246) [code](https://github.com/xjiajiahao/federated-minimax)
+* FedALA: Adaptive Local Aggregation for Personalized Federated Learning [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26330) [code](https://github.com/TsingZ0/FedALA)
+* DPAUC: Differentially Private AUC Computation in Federated Learning [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26770) [code](https://github.com/bytedance/fedlearner/tree/master/example/privacy/DPAUC)
+* Clustered Federated Learning for Heterogeneous Data (Student Abstract) [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/27049)
+* MGIA: Mutual Gradient Inversion Attack in Multi-Modal Federated Learning (Student Abstract) [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26995)
+* A Federated Learning Monitoring Tool for Self-Driving Car Simulation (Student Abstract) [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26984)
+* Industry-Scale Orchestrated Federated Learning for Drug Discovery [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26847)
+* Efficient Training of Large-Scale Industrial Fault Diagnostic Models through Federated Opportunistic Block Dropout [pdf](https://arxiv.org/abs/2302.11485)
+* Echo of Neighbors: Privacy Amplification for Personalized Private Federated Learning with Shuffle Model [pdf](https://arxiv.org/abs/2304.05516)
+* On the Vulnerability of Backdoor Defenses for Federated Learning [pdf](https://arxiv.org/abs/2301.08170)
+* Delving into the Adversarial Robustness of Federated Learning [pdf](https://arxiv.org/abs/2302.09479)
+* DeFL: Defending against Model Poisoning Attacks in Federated Learning via Critical Learning Periods Awarenes [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26271)
+* Federated Generative Model on Multi-Source Heterogeneous Data in IoT [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26252)
+* Faster Adaptive Federated Learning [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26235)
+* Beyond ADMM: A Unified Client-Variance-Reduced Adaptive Federated Learning Framework [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26212)
+* FedABC: Targeting Fair Competition in Personalized Federated Learning [pdf](https://arxiv.org/abs/2302.07450)
+* Efficient Distribution Similarity Identification in Clustered Federated Learning via Principal Angles between Client Data Subspaces [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26197)
+* Securing Secure Aggregation: Mitigating Multi-Round Privacy Leakage in Federated Learning [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26177)
+* Layer-Wise Adaptive Model Aggregation for Scalable Federated Learning [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/26023)
+* Almost Cost-Free Communication in Federated Best Arm Identification [pdf](https://arxiv.org/abs/2208.09215)
+* Complement Sparsification: Low-Overhead Model Pruning for Federated Learning [pdf](https://arxiv.org/abs/2303.06237)
+* FairFed: Enabling Group Fairness in Federated Learning [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/25911)
+* Tackling Data Heterogeneity in Federated Learning with Class Prototypes [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/25891)
+* Incentive-Boosted Federated Crowdsourcing [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/25744)
+* Win-Win: A Privacy-Preserving Federated Framework for Dual-Target Cross-Domain Recommendation [pdf](https://ojs.aaai.org/index.php/AAAI/article/view/25531)                                                   |
 
 ### NeurlPS
 
