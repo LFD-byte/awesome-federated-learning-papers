@@ -104,15 +104,13 @@
 
 ### ACL
 
-| paper                                                        | authors       | code                                                       |
-| ------------------------------------------------------------ | ------------- | ---------------------------------------------------------- |
-| [FEDLEGAL: The First Real-World Federated Learning Benchmark for Legal NLP](https://aclanthology.org/2023.acl-long.193/) | Zhuo Zhang    | [url](https://github.com/SMILELab-FL/FedLegal)             |
-| [Federated Learning for Semantic Parsing: Task Formulation, Evaluation Setup, New Algorithms](https://arxiv.org/abs/2305.17221) | Tianshu Zhang | [url](https://github.com/OSU-NLP-Group/FL4SemanticParsing) |
-| [Client-Customized Adaptation for Parameter-Efficient Federated Learning](https://aclanthology.org/2023.findings-acl.75/) | Yeachan Kim   | [url](https://github.com/yeachan-kr/c2a)                   |
-| [Communication Efficient Federated Learning for Multilingual Neural Machine Translation with Adapter](https://arxiv.org/abs/2305.12449) | Yi Liu        | [url](https://github.com/lancopku/FedMNMT)                 |
-| [FedPETuning: When Federated Learning Meets the Parameter-Efficient Tuning Methods of Pre-trained Language Models](https://aclanthology.org/2023.findings-acl.632/) | Zhuo Zhang    | [url](https://github.com/SMILELab-FL/FedPETuning)          |
-| [Federated Learning of Gboard Language Models with Differential Privacy](https://arxiv.org/abs/2305.18465) | Zheng Xu      | none                                                       |
-| [Federated Domain Adaptation for Named Entity Recognition via Distilling with Heterogeneous Tag Sets](https://aclanthology.org/2023.findings-acl.470/) | Rui Wang      | none                                                       |
+* FEDLEGAL: The First Real-World Federated Learning Benchmark for Legal NLP [pdf](https://aclanthology.org/2023.acl-long.193/) [code](https://github.com/SMILELab-FL/FedLegal)
+* Federated Learning for Semantic Parsing: Task Formulation, Evaluation Setup, New Algorithms [pdf](https://arxiv.org/abs/2305.17221) [code](https://github.com/OSU-NLP-Group/FL4SemanticParsing)
+* Client-Customized Adaptation for Parameter-Efficient Federated Learning [pdf](https://aclanthology.org/2023.findings-acl.75/) [code](https://github.com/yeachan-kr/c2a)
+* Communication Efficient Federated Learning for Multilingual Neural Machine Translation with Adapter [pdf](https://arxiv.org/abs/2305.12449) [code](https://github.com/lancopku/FedMNMT)
+* FedPETuning: When Federated Learning Meets the Parameter-Efficient Tuning Methods of Pre-trained Language Models [pdf](https://aclanthology.org/2023.findings-acl.632/) [code](https://github.com/SMILELab-FL/FedPETuning)
+* Federated Learning of Gboard Language Models with Differential Privacy [pdf](https://arxiv.org/abs/2305.18465)
+* Federated Domain Adaptation for Named Entity Recognition via Distilling with Heterogeneous Tag Sets [pdf](https://aclanthology.org/2023.findings-acl.470/)
 
 ### CVPR
 
