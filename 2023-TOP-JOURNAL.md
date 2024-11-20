@@ -1,5 +1,7 @@
 # 2023 TOP Federated Learning Journal
 
+2023 年度的顶刊已经出炉，在此把关于 Federated Learning 的部分筛选出来，以供后续学习，整理内容已同步在我的 [Blog](https://blog.lfd.world/2024/11/20/2023-top-federated-learning-journal-review/)。
+
 ## 人工智能
 
 ### AI
