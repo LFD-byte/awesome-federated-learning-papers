@@ -142,80 +142,128 @@
 
 ### ICML
 
-| paper                                                        | authors             | code                                                         |
-| ------------------------------------------------------------ | ------------------- | ------------------------------------------------------------ |
-| [Personalized Subgraph Federated Learning](https://proceedings.mlr.press/v202/baek23a.html) | Jinheon Baek        | [url](https://github.com/JinheonBaek/FED-PUB)                |
-| [Optimizing the Collaboration Structure in Cross-Silo Federated Learning](https://arxiv.org/abs/2306.06508) | Wenxuan Bao         | [url](https://github.com/baowenxuan/FedCollab)               |
-| [Efficient Personalized Federated Learning via Sparse Model-Adaptation](https://arxiv.org/abs/2305.02776) | Daoyuan Chen        | [url](https://github.com/alibaba/FederatedScope/tree/master/benchmark/pFL-Bench) |
-| [From Noisy Fixed-Point Iterations to Private ADMM for Centralized and Federated Learning](https://arxiv.org/abs/2302.12559) | Edwige Cyffers      | [url](https://github.com/totilas/padadmm)                    |
-| [Chameleon: Adapting to Peer Images for Planting Durable Backdoors in Federated Learning](https://arxiv.org/abs/2304.12961) | Yanbo Dai           | [url](https://github.com/ybdai7/Chameleon-durable-backdoor)  |
-| [Federated Heavy Hitter Recovery under Linear Sketching](https://proceedings.mlr.press/v202/gascon23a.html) | Adria Gascon        | [url](https://github.com/google-research/federated)          |
-| [Out-of-Distribution Generalization of Federated Learning via Implicit Invariant Relationships](https://proceedings.mlr.press/v202/guo23b.html) | Yaming Guo          | [url](https://github.com/YamingGuo98/FedIIR)                 |
-| [FeDXL: Provable Federated Learning for Deep X-Risk Optimization](https://proceedings.mlr.press/v202/guo23c.html) | Zhishuai Guo        | [url](https://github.com/Optimization-AI/ICML2023_FeDXL)     |
-| [FedBR: Improving Federated Learning on Heterogeneous Data via Local Learning Bias Reduction](https://proceedings.mlr.press/v202/guo23g.html) | Yongxin Guo         | [url](https://github.com/lins-lab/fedbr)                     |
-| [One-Shot Federated Conformal Prediction](https://proceedings.mlr.press/v202/humbert23a.html) | Pierre Humbert      | [url](https://github.com/pierreHmbt/FedCP-QQ)                |
-| [Revisiting Weighted Aggregation in Federated Learning with Neural Networks](https://arxiv.org/abs/2302.10911) | Zexi Li             | [url](https://github.com/ZexiLee/ICML-2023-FedLAW)           |
-| [Federated Conformal Predictors for Distributed Uncertainty Quantification](https://proceedings.mlr.press/v202/lu23i.html) | Charles Lu          | [url](https://github.com/clu5/federated-conformal)           |
-| [Vertical Federated Graph Neural Network for Recommender System](https://arxiv.org/abs/2303.05786) | Peihua Mai          | [url](https://github.com/maiph123/VerticalGNN)               |
-| [SRATTA: Sample Re-ATTribution Attack of Secure Aggregation in Federated Learning](https://arxiv.org/abs/2306.07644) | Tanguy Marchand     | [url](https://github.com/owkin/SRATTA)                       |
-| [Secure Federated Correlation Test and Entropy Estimation](https://proceedings.mlr.press/v202/pang23a.html) | Qi Pang             | [url](https://github.com/Qi-Pang/Federated-Correlation-Test) |
-| [TabLeak: Tabular Data Leakage in Federated Learning](https://openreview.net/forum?id=mRiDy4qGwB) | Mark Vero           | [url](https://github.com/eth-sri/tableak)                    |
-| [FedHPO-Bench: A Benchmark Suite for Federated Hyperparameter Optimization](https://proceedings.mlr.press/v202/wang23n.html) | Zhen Wang           | [url](https://github.com/alibaba/FederatedScope/tree/master/benchmark/FedHPOBench) |
-| [Anchor Sampling for Federated Learning with Partial Client Participation](https://proceedings.mlr.press/v202/wu23e.html) | Feijie Wu           | [url](https://github.com/HarliWu/FedAMD)                     |
-| [Personalized Federated Learning with Inferred Collaboration Graphs](https://proceedings.mlr.press/v202/ye23b.html) | Rui Ye              | [url](https://github.com/MediaBrain-SJTU/pFedGraph)          |
-| [FedDisco: Federated Learning with Discrepancy-Aware Collaboration](https://arxiv.org/abs/2305.19229) | Rui Ye              | [url](https://github.com/MediaBrain-SJTU/FedDisco)           |
-| [Doubly Adversarial Federated Bandits](https://proceedings.mlr.press/v202/yi23a.html) | Jialin Yi           | [url](https://github.com/jialinyi94/doubly-stochastic-federataed-bandit) |
-| [FedCR: Personalized Federated Learning Based on Across-Client Common Representation with Conditional Mutual Information Regularization](https://proceedings.mlr.press/v202/zhang23w.html) | Hao Zhang           | [url](https://github.com/haozzh/FedCR)                       |
-| [No One Idles: Efficient Heterogeneous Federated Learning with Parallel Edge and Server Computation](https://proceedings.mlr.press/v202/zhang23aa.html) | Feilong Zhang       | [url](https://github.com/Hypervoyager/PFL)                   |
-| [LeadFL: Client Self-Defense against Model Poisoning in Federated Learning](https://proceedings.mlr.press/v202/zhu23j.html) | Chaoyi Zhu          | [url](https://github.com/chaoyitud/LeadFL)                   |
-| [Surrogate Model Extension (SME): A Fast and Accurate Weight Update Attack on Federated Learning](https://arxiv.org/abs/2306.00127) | Junyi Zhu           | [url](https://github.com/JunyiZhu-AI/surrogate_model_extension) |
-| [Towards Unbiased Training in Federated Open-world Semi-supervised Learning](https://arxiv.org/abs/2305.00771) | Jie Zhang           | none                                                         |
-| [Fed-CBS: A Heterogeneity-Aware Client Sampling Mechanism for Federated Learning via Class-Imbalance Reduction](https://proceedings.mlr.press/v202/zhang23y.html) | Jianyi Zhang        | none                                                         |
-| [Communication-Efficient Federated Hypergradient Computation via Aggregated Iterative Differentiation](https://arxiv.org/abs/2302.04969) | Peiyao Xiao         | none                                                         |
-| [Personalized Federated Learning under Mixture of Distributions](https://arxiv.org/abs/2305.01068) | Yue Wu              | none                                                         |
-| [The Blessing of Heterogeneity in Federated Q-Learning: Linear Speedup and Beyond](https://arxiv.org/abs/2305.10697) | Jiin Woo            | none                                                         |
-| [Private Federated Learning with Autotuned Compression](https://proceedings.mlr.press/v202/ullah23b.html) | Enayat Ullah        | none                                                         |
-| [Dynamic Regularized Sharpness Aware Minimization in Federated Learning: Approaching Global Consistency and Smooth Landscape](https://arxiv.org/abs/2305.11584) | Yan Sun             | none                                                         |
-| [FedAvg Converges to Zero Training Loss Linearly for Overparameterized Multi-Layer Neural Networks](https://proceedings.mlr.press/v202/song23e.html) | Bingqing Song       | none                                                         |
-| [Improving the Model Consistency of Decentralized Federated Learning](https://arxiv.org/abs/2302.04083) | Yifan Shi           | none                                                         |
-| [Conformal Prediction for Federated Uncertainty Quantification Under Label Shift](https://arxiv.org/abs/2306.05131) | Vincent Plassier    | none                                                         |
-| [Federated Online and Bandit Convex Optimization](https://proceedings.mlr.press/v202/patel23a.html) | Kumar Kshitij Patel | none                                                         |
-| [Towards Understanding Ensemble Distillation in Federated Learning](https://proceedings.mlr.press/v202/park23e.html) | Sejun Park          | none                                                         |
-| [Flash: Concept Drift Adaptation in Federated Learning](https://proceedings.mlr.press/v202/panchal23a.html) | Kunjal Panchal      | none                                                         |
-| [FedVS: Straggler-Resilient and Privacy-Preserving Vertical Federated Learning for Split Models](https://arxiv.org/abs/2304.13407) | Songze Li           | none                                                         |
-| [Federated Adversarial Learning: A Framework with Convergence Analysis](https://proceedings.mlr.press/v202/li23z.html) | Xiaoxiao Li         | none                                                         |
-| [Analysis of Error Feedback in Federated Non-Convex Optimization with Biased Compression: Fast Convergence and Partial Participation](https://proceedings.mlr.press/v202/li23o.html) | Xiaoyun Li          | none                                                         |
-| [Cocktail Party Attack: Breaking Aggregation-Based Privacy in Federated Learning Using Independent Component Analysis](https://proceedings.mlr.press/v202/kariyappa23a.html) | Sanjay Kariyappa    | none                                                         |
-| [Federated Linear Contextual Bandits with User-level Differential Privacy](https://proceedings.mlr.press/v202/huang23q.html) | Ruiquan Huang       | none                                                         |
-| [Achieving Linear Speedup in Non-IID Federated Bilevel Learning](https://arxiv.org/abs/2302.05412) | Minhui Huang        | none                                                         |
-| [Privacy-Aware Compression for Federated Learning Through Numerical Mechanism Design](https://proceedings.mlr.press/v202/guo23a.html) | Chuan Guo           | none                                                         |
-| [DoCoFL: Downlink Compression for Cross-Device Federated Learning](https://proceedings.mlr.press/v202/dorfman23a.html) | Ron Dorfman         | none                                                         |
-| [On the Convergence of Federated Averaging with Cyclic Client Participation](https://arxiv.org/abs/2302.03109) | Yae Jee Cho         | none                                                         |
-| [GuardHFL: Privacy Guardian for Heterogeneous Federated Learning](https://proceedings.mlr.press/v202/chen23j.html) | Hanxiao Chen        | none                                                         |
-| [Fast Federated Machine Unlearning with Nonlinear Functional Theory](https://proceedings.mlr.press/v202/che23b.html) | Tianshi Che         | none                                                         |
-| [LESS-VFL: Communication-Efficient Feature Selection for Vertical Federated Learning](https://arxiv.org/abs/2305.02219) | Timothy Castiglia   | none                                                         |
+* Personalized Subgraph Federated Learning [pdf](https://proceedings.mlr.press/v202/baek23a.html) [code](https://github.com/JinheonBaek/FED-PUB)
+* Optimizing the Collaboration Structure in Cross-Silo Federated Learning [pdf](https://arxiv.org/abs/2306.06508) [code](https://github.com/baowenxuan/FedCollab)
+* Efficient Personalized Federated Learning via Sparse Model-Adaptation [pdf](https://arxiv.org/abs/2305.02776) [code](https://github.com/alibaba/FederatedScope/tree/master/benchmark/pFL-Bench)
+* From Noisy Fixed-Point Iterations to Private ADMM for Centralized and Federated Learning [pdf](https://arxiv.org/abs/2302.12559) [code](https://github.com/totilas/padadmm)
+* Chameleon: Adapting to Peer Images for Planting Durable Backdoors in Federated Learning [pdf](https://arxiv.org/abs/2304.12961) [code](https://github.com/ybdai7/Chameleon-durable-backdoor)
+* Federated Heavy Hitter Recovery under Linear Sketching [pdf](https://proceedings.mlr.press/v202/gascon23a.html) [code](https://github.com/google-research/federated)
+* Out-of-Distribution Generalization of Federated Learning via Implicit Invariant Relationships [pdf](https://proceedings.mlr.press/v202/guo23b.html) [code](https://github.com/YamingGuo98/FedIIR)
+* FeDXL: Provable Federated Learning for Deep X-Risk Optimization [pdf](https://proceedings.mlr.press/v202/guo23c.html) [code](https://github.com/Optimization-AI/ICML2023_FeDXL)
+* FedBR: Improving Federated Learning on Heterogeneous Data via Local Learning Bias Reduction [pdf](https://proceedings.mlr.press/v202/guo23g.html) [code](https://github.com/lins-lab/fedbr)
+* One-Shot Federated Conformal Prediction [pdf](https://proceedings.mlr.press/v202/humbert23a.html) [code](https://github.com/pierreHmbt/FedCP-QQ)
+* Revisiting Weighted Aggregation in Federated Learning with Neural Networks [pdf](https://arxiv.org/abs/2302.10911) [code](https://github.com/ZexiLee/ICML-2023-FedLAW)
+* Federated Conformal Predictors for Distributed Uncertainty Quantification [pdf](https://proceedings.mlr.press/v202/lu23i.html) [code](https://github.com/clu5/federated-conformal)
+* Vertical Federated Graph Neural Network for Recommender System [pdf](https://arxiv.org/abs/2303.05786) [code](https://github.com/maiph123/VerticalGNN)
+* SRATTA: Sample Re-ATTribution Attack of Secure Aggregation in Federated Learning [pdf](https://arxiv.org/abs/2306.07644) [code](https://github.com/owkin/SRATTA)
+* Secure Federated Correlation Test and Entropy Estimation [pdf](https://proceedings.mlr.press/v202/pang23a.html) [code](https://github.com/Qi-Pang/Federated-Correlation-Test)
+* TabLeak: Tabular Data Leakage in Federated Learning [pdf](https://openreview.net/forum?id=mRiDy4qGwB) [code](https://github.com/eth-sri/tableak)
+* FedHPO-Bench: A Benchmark Suite for Federated Hyperparameter Optimization [pdf](https://proceedings.mlr.press/v202/wang23n.html) [code](https://github.com/alibaba/FederatedScope/tree/master/benchmark/FedHPOBench)
+* Anchor Sampling for Federated Learning with Partial Client Participation [pdf](https://proceedings.mlr.press/v202/wu23e.html) [code](https://github.com/HarliWu/FedAMD)
+* Personalized Federated Learning with Inferred Collaboration Graphs [pdf](https://proceedings.mlr.press/v202/ye23b.html) [code](https://github.com/MediaBrain-SJTU/pFedGraph)
+* FedDisco: Federated Learning with Discrepancy-Aware Collaboration [pdf](https://arxiv.org/abs/2305.19229) [code](https://github.com/MediaBrain-SJTU/FedDisco)
+* Doubly Adversarial Federated Bandits [pdf](https://proceedings.mlr.press/v202/yi23a.html) [code](https://github.com/jialinyi94/doubly-stochastic-federataed-bandit)
+* FedCR: Personalized Federated Learning Based on Across-Client Common Representation with Conditional Mutual Information Regularization [pdf](https://proceedings.mlr.press/v202/zhang23w.html) [code](https://github.com/haozzh/FedCR)
+* No One Idles: Efficient Heterogeneous Federated Learning with Parallel Edge and Server Computation [pdf](https://proceedings.mlr.press/v202/zhang23aa.html) [code](https://github.com/Hypervoyager/PFL)
+* LeadFL: Client Self-Defense against Model Poisoning in Federated Learning [pdf](https://proceedings.mlr.press/v202/zhu23j.html) [code](https://github.com/chaoyitud/LeadFL)
+* Surrogate Model Extension (SME): A Fast and Accurate Weight Update Attack on Federated Learning [pdf](https://arxiv.org/abs/2306.00127) [code](https://github.com/JunyiZhu-AI/surrogate_model_extension)
+* Towards Unbiased Training in Federated Open-world Semi-supervised Learning [pdf](https://arxiv.org/abs/2305.00771)
+* Fed-CBS: A Heterogeneity-Aware Client Sampling Mechanism for Federated Learning via Class-Imbalance Reduction [pdf](https://proceedings.mlr.press/v202/zhang23y.html)
+* Communication-Efficient Federated Hypergradient Computation via Aggregated Iterative Differentiation [pdf](https://arxiv.org/abs/2302.04969)
+* Personalized Federated Learning under Mixture of Distributions [pdf](https://arxiv.org/abs/2305.01068)
+* The Blessing of Heterogeneity in Federated Q-Learning: Linear Speedup and Beyond [pdf](https://arxiv.org/abs/2305.10697)
+* Private Federated Learning with Autotuned Compression [pdf](https://proceedings.mlr.press/v202/ullah23b.html)
+* Dynamic Regularized Sharpness Aware Minimization in Federated Learning: Approaching Global Consistency and Smooth Landscape [pdf](https://arxiv.org/abs/2305.11584)
+* FedAvg Converges to Zero Training Loss Linearly for Overparameterized Multi-Layer Neural Networks [pdf](https://proceedings.mlr.press/v202/song23e.html)
+* Improving the Model Consistency of Decentralized Federated Learning [pdf](https://arxiv.org/abs/2302.04083)
+* Conformal Prediction for Federated Uncertainty Quantification Under Label Shift [pdf](https://arxiv.org/abs/2306.05131)
+* Federated Online and Bandit Convex Optimization [pdf](https://proceedings.mlr.press/v202/patel23a.html)
+* Towards Understanding Ensemble Distillation in Federated Learning [pdf](https://proceedings.mlr.press/v202/park23e.html)
+* Flash: Concept Drift Adaptation in Federated Learning [pdf](https://proceedings.mlr.press/v202/panchal23a.html)
+* FedVS: Straggler-Resilient and Privacy-Preserving Vertical Federated Learning for Split Models [pdf](https://arxiv.org/abs/2304.13407)
+* Federated Adversarial Learning: A Framework with Convergence Analysis [pdf](https://proceedings.mlr.press/v202/li23z.html)
+* Analysis of Error Feedback in Federated Non-Convex Optimization with Biased Compression: Fast Convergence and Partial Participation [pdf](https://proceedings.mlr.press/v202/li23o.html)
+* Cocktail Party Attack: Breaking Aggregation-Based Privacy in Federated Learning Using Independent Component Analysis [pdf](https://proceedings.mlr.press/v202/kariyappa23a.html)
+* Federated Linear Contextual Bandits with User-level Differential Privacy [pdf](https://proceedings.mlr.press/v202/huang23q.html)
+* Achieving Linear Speedup in Non-IID Federated Bilevel Learning [pdf](https://arxiv.org/abs/2302.05412)
+* Privacy-Aware Compression for Federated Learning Through Numerical Mechanism Design [pdf](https://proceedings.mlr.press/v202/guo23a.html)
+* DoCoFL: Downlink Compression for Cross-Device Federated Learning [pdf](https://proceedings.mlr.press/v202/dorfman23a.html)
+* On the Convergence of Federated Averaging with Cyclic Client Participation [pdf](https://arxiv.org/abs/2302.03109)
+* GuardHFL: Privacy Guardian for Heterogeneous Federated Learning [pdf](https://proceedings.mlr.press/v202/chen23j.html)
+* Fast Federated Machine Unlearning with Nonlinear Functional Theory [pdf](https://proceedings.mlr.press/v202/che23b.html)
+* LESS-VFL: Communication-Efficient Feature Selection for Vertical Federated Learning [pdf](https://arxiv.org/abs/2305.02219)
 
 ### IJCAI
 
-| paper                                                        | authors                        | code                                                         |
-| ------------------------------------------------------------ | ------------------------------ | ------------------------------------------------------------ |
-| [Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data](https://arxiv.org/abs/2301.09152) | Shengchao Chen                 | [url](https://github.com/shengchaochen82/MetePFL)            |
-| [FedOBD: Opportunistic Block Dropout for Efficiently Training Large-scale Neural Networks through Federated Learning](https://arxiv.org/abs/2208.05174) | Yuanyuan Chen                  | [url](https://github.com/cyyever/distributed_learning_simulator) |
-| [FedHGN: A Federated Framework for Heterogeneous Graph Neural Networks](https://arxiv.org/abs/2305.09729) | Xinyu Fu                       | [url](https://github.com/cynricfu/FedHGN)                    |
-| [Globally Consistent Federated Graph Autoencoder for Non-IID Graphs](https://www.ijcai.org/proceedings/2023/419) | Kun Guo                        | [url](https://github.com/gcfgae/GCFGAE)                      |
-| [FedSampling: A Better Sampling Strategy for Federated Learning](https://arxiv.org/abs/2306.14245) | Tao Qi                         | [url](https://github.com/taoqi98/FedSampling)                |
-| [FedBFPT: An Efficient Federated Learning Framework for Bert Further Pre-training](https://www.ijcai.org/proceedings/2023/483) | Xin'ao Wang                    | [url](https://github.com/Hanzhouu/FedBFPT)                   |
-| [FedNoRo: Towards Noise-Robust Federated Learning by Addressing Class Imbalance and Label Noise Heterogeneity](https://arxiv.org/abs/2305.05230) | Nannan Wu                      | [url](https://github.com/wnn2000/FedNoRo)                    |
-| [Dual Personalization on Federated Recommendation](https://arxiv.org/abs/2301.08143) | Chunxu Zhang                   | [url](https://github.com/Zhangcx19/IJCAI-23-PFedRec)         |
-| [SAMBA: A Generic Framework for Secure Federated Multi-Armed Bandits (Extended Abstract)](https://www.ijcai.org/proceedings/2023/772) | Radu Ciucanu                   | [url](https://github.com/gamarcad/paper-samba-code)          |
-| [Fedstellar: A Platform for Training Models in a Privacy-preserving and Decentralized Fashion](https://www.ijcai.org/proceedings/2023/838) | Enrique Tomás Martínez Beltrán | none                                                         |
-| [A Survey of Federated Evaluation in Federated Learning](https://arxiv.org/abs/2305.08070) | Behnaz Soltani                 | none                                                         |
-| [Denial-of-Service or Fine-Grained Control: Towards Flexible Model Poisoning Attacks on Federated Learning](https://arxiv.org/abs/2304.10783) | Hangtao Zhang                  | none                                                         |
-| [BARA: Efficient Incentive Mechanism with Online Reward Budget Allocation in Cross-Silo Federated Learning](https://arxiv.org/abs/2305.05221) | Yunchao Yang                   | none                                                         |
-| [Competitive-Cooperative Multi-Agent Reinforcement Learning for Auction-based Federated Learning](https://www.ijcai.org/proceedings/2023/474) | Xiaoli Tang                    | none                                                         |
-| [FedDWA: Personalized Federated Learning with Dynamic Weight Adjustment](https://arxiv.org/abs/2305.06124) | Jiahao Liu                     | none                                                         |
-| [FedET: A Communication-Efficient Federated Class-Incremental Learning Framework Based on Enhanced Transformer](https://arxiv.org/abs/2306.15347) | Chenghao Liu                   | none                                                         |
-| [HyperFed: Hyperbolic Prototypes Exploration with Consistent Aggregation for Non-IID Data in Federated Learning](https://arxiv.org/abs/2307.14384) | Xinting Liao                   | none                                                         |
-| [Federated Graph Semantic and Structural Learning](https://www.ijcai.org/proceedings/2023/0426.pdf) | Wenke Huang                    | none                                                         |
-| [FedPass: Privacy-Preserving Vertical Federated Deep Learning with Adaptive Obfuscation](https://arxiv.org/abs/2301.12623) | Hanlin Gu                      | none                                                         |
-| [Federated Probabilistic Preference Distribution Modelling with Compactness Co-Clustering for Privacy-Preserving Multi-Domain Recommendation](https://www.ijcai.org/proceedings/2023/245) | Weiming Liu                    | none                                                         |
+* Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data [pdf](https://arxiv.org/abs/2301.09152) [code](https://github.com/shengchaochen82/MetePFL)
+* FedOBD: Opportunistic Block Dropout for Efficiently Training Large-scale Neural Networks through Federated Learning [pdf](https://arxiv.org/abs/2208.05174) [code](https://github.com/cyyever/distributed_learning_simulator)
+* FedHGN: A Federated Framework for Heterogeneous Graph Neural Networks [pdf](https://arxiv.org/abs/2305.09729) [code](https://github.com/cynricfu/FedHGN)
+* Globally Consistent Federated Graph Autoencoder for Non-IID Graphs [pdf](https://www.ijcai.org/proceedings/2023/419) [code](https://github.com/gcfgae/GCFGAE)
+* FedSampling: A Better Sampling Strategy for Federated Learning [pdf](https://arxiv.org/abs/2306.14245) [code](https://github.com/taoqi98/FedSampling)
+* FedBFPT: An Efficient Federated Learning Framework for Bert Further Pre-training [pdf]((https://www.ijcai.org/proceedings/2023/483) [code](https://github.com/Hanzhouu/FedBFPT)
+* FedNoRo: Towards Noise-Robust Federated Learning by Addressing Class Imbalance and Label Noise Heterogeneity [pdf](https://arxiv.org/abs/2305.05230) [code]()
+* Dual Personalization on Federated Recommendation [pdf](https://arxiv.org/abs/2301.08143) [code](https://github.com/Zhangcx19/IJCAI-23-PFedRec)
+* SAMBA: A Generic Framework for Secure Federated Multi-Armed Bandits (Extended Abstract) [pdf](https://www.ijcai.org/proceedings/2023/772) [code](https://github.com/gamarcad/paper-samba-code)
+* Fedstellar: A Platform for Training Models in a Privacy-preserving and Decentralized Fashion [pdf](https://www.ijcai.org/proceedings/2023/838)
+* A Survey of Federated Evaluation in Federated Learning [pdf](https://arxiv.org/abs/2305.08070)
+* Denial-of-Service or Fine-Grained Control: Towards Flexible Model Poisoning Attacks on Federated Learning [pdf](https://arxiv.org/abs/2304.10783)
+* BARA: Efficient Incentive Mechanism with Online Reward Budget Allocation in Cross-Silo Federated Learning [pdf](https://arxiv.org/abs/2305.05221)
+* Competitive-Cooperative Multi-Agent Reinforcement Learning for Auction-based Federated Learning [pdf](https://www.ijcai.org/proceedings/2023/474)
+* FedDWA: Personalized Federated Learning with Dynamic Weight Adjustment [pdf](https://arxiv.org/abs/2305.06124)
+* FedET: A Communication-Efficient Federated Class-Incremental Learning Framework Based on Enhanced Transformer [pdf](https://arxiv.org/abs/2306.15347)
+* HyperFed: Hyperbolic Prototypes Exploration with Consistent Aggregation for Non-IID Data in Federated Learning [pdf](https://arxiv.org/abs/2307.14384)
+* Federated Graph Semantic and Structural Learning [pdf](https://www.ijcai.org/proceedings/2023/0426.pdf)
+* FedPass: Privacy-Preserving Vertical Federated Deep Learning with Adaptive Obfuscation [pdf](https://arxiv.org/abs/2301.12623)
+* Federated Probabilistic Preference Distribution Modelling with Compactness Co-Clustering for Privacy-Preserving Multi-Domain Recommendation [pdf](https://www.ijcai.org/proceedings/2023/245)
+
+## 数据库/数据挖掘/内容检索
+
+### SIGMOD
+
+无相关文献。
+
+### SIGKDD
+
+* FedDefender: Client-Side Attack-Tolerant Federated Learning [pdf](https://dl.acm.org/doi/10.1145/3580305.3599346) [code](https://github.com/deu30303/FedDefender)
+* FedAPEN: Personalized Cross-silo Federated Learning with Adaptability to Statistical Heterogeneity [pdf](https://dl.acm.org/doi/10.1145/3580305.3599344) [code](https://github.com/zhenqincn/FedAPEN)
+* FedPseudo: Privacy-Preserving Pseudo Value-Based Deep Learning Models for Federated Survival Analysis [pdf](https://dl.acm.org/doi/10.1145/3580305.3599348) [code](https://github.com/umbc-sanjaylab/FedPseudo_KDD23)
+* ShapleyFL: Robust Federated Learning Based on Shapley Value [pdf](https://dl.acm.org/doi/10.1145/3580305.3599500) [code](https://github.com/ZJU-DIVER/ShapleyFL-Robust-Federated-Learning-Based-on-Shapley-Value)
+* Federated Few-shot Learning [pdf](https://dl.acm.org/doi/10.1145/3580305.3599347) [code](https://github.com/SongW-SW/F2L)
+* Theoretical Convergence Guaranteed Resource-Adaptive Federated Learning with Mixed Heterogeneity [pdf](https://dl.acm.org/doi/10.1145/3580305.3599521) [code](https://github.com/wyy-123-xyy/RA-Fed)
+* FedCP: Separating Feature Information for Personalized Federated Learning via Conditional Policy [pdf](https://dl.acm.org/doi/10.1145/3580305.3599345) [code](https://github.com/TsingZ0/FedCP)
+* Navigating Alignment for Non-identical Client Class Sets: A Label Name-Anchored Federated Learning Framework [pdf](https://dl.acm.org/doi/10.1145/3580305.3599443) [code](https://github.com/jiayunz/FedAlign)
+* DM-PFL: Hitchhiking Generic Federated Learning for Efficient Shift-Robust Personalization [pdf](https://dl.acm.org/doi/10.1145/3580305.3599311) [code](https://github.com/garyzhang99/DM-PFL)
+* FS-REAL: Towards Real-World Cross-Device Federated Learning [pdf](https://dl.acm.org/doi/10.1145/3580305.3599829) [code](https://github.com/alibaba/FederatedScope/tree/FSreal)
+* FedMultimodal: A Benchmark for Multimodal Federated Learning [pdf](https://dl.acm.org/doi/10.1145/3580305.3599825) [code](https://github.com/usc-sail/fed-multimodal)
+* Revisiting Personalized Federated Learning: Robustness Against Backdoor Attacks [pdf](https://dl.acm.org/doi/10.1145/3580305.3599898) [code](https://github.com/alibaba/FederatedScope/tree/backdoor-bench)
+* UA-FedRec: Untargeted Attack on Federated News Recommendation [pdf](https://dl.acm.org/doi/10.1145/3580305.3599923) [code](https://github.com/yjw1029/UA-FedRec)
+* International Workshop on Federated Learning for Distributed Data Mining [pdf](https://dl.acm.org/doi/10.1145/3580305.3599198)
+* PrivateRec: Differentially Private Model Training and Online Serving for Federated News Recommendation [pdf](https://dl.acm.org/doi/10.1145/3580305.3599889)
+* FLAMES2Graph: An Interpretable Federated Multivariate Time Series Classification Framework [pdf](https://dl.acm.org/doi/10.1145/3580305.3599354)
+* CriticalFL: A Critical Learning Periods Augmented Client Selection Framework for Efficient Federated Learning [pdf](https://dl.acm.org/doi/10.1145/3580305.3599293)
+* Personalized Federated Learning with Parameter Propagation [pdf](https://dl.acm.org/doi/10.1145/3580305.3599464)
+* FedSkill: Privacy Preserved Interpretable Skill Learning via Imitation [pdf](https://dl.acm.org/doi/10.1145/3580305.3599349)
+* Privacy Matters: Vertical Federated Linear Contextual Bandits for Privacy Protected Recommendation [pdf](https://dl.acm.org/doi/10.1145/3580305.3599475)
+
+### ICDE
+
+* Dynamic Activation of Clients and Parameters for Federated Learning over Heterogeneous Graphs [pdf](https://ieeexplore.ieee.org/document/10184557) [code](https://github.com/dongzizhu/FedDA)
+* Distribution-Regularized Federated Learning on Non-IID Data [pdf](https://ieeexplore.ieee.org/document/10184650) [code](https://github.com/BUAA-BDA/rfedavg)
+* FLBooster: A Unified and Efficient Platform for Federated Learning Acceleration [pdf](https://ieeexplore.ieee.org/document/10184883)
+* Fed-SC: One-Shot Federated Subspace Clustering over High-Dimensional Data [pdf](https://ieeexplore.ieee.org/document/10184550)
+* Enhancing Decentralized Federated Learning for Non-IID Data on Heterogeneous Devices [pdf](https://ieeexplore.ieee.org/document/10184749)
+* Lumos: Heterogeneity-aware Federated Graph Learning over Decentralized Devices [pdf](https://ieeexplore.ieee.org/document/10184796)
+* FedKNOW: Federated Continual Learning with Signature Task Knowledge Integration at Edge [pdf](https://ieeexplore.ieee.org/document/10184531)
+* Federated IoT Interaction Vulnerability Analysis [pdf](https://ieeexplore.ieee.org/document/10184681)
+
+### SIGIR
+
+* Personalized Federated Relation Classification over Heterogeneous Texts [pdf](https://dl.acm.org/doi/10.1145/3539618.3591748) [code](https://github.com/ningpang/pf-RC)
+* FedAds: A Benchmark for Privacy-Preserving CVR Estimation with Vertical Federated Learning [pdf](https://arxiv.org/abs/2305.08328) [code](https://github.com/alibaba/Elastic-Federated-Learning-Solution/tree/FedAds)
+* Edge-cloud Collaborative Learning with Federated and Centralized Features [pdf](https://arxiv.org/abs/2304.05871)
+* FLIRT: Federated Learning for Information Retrieval [pdf](https://dl.acm.org/doi/10.1145/3539618.3591926)
+* Fine-Grained Preference-Aware Personalized Federated POI Recommendation with Data Sparsity [pdf](https://dl.acm.org/doi/10.1145/3539618.3591688)
+
+### VLDB
+
+* Towards Federated Machine Learning and Distributed Ledger Technology-based Data Monetization [pdf](https://ceur-ws.org/Vol-3462/DEco3.pdf)
