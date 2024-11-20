@@ -1,5 +1,6 @@
 # 2023 TOP CONFERENCE
-2023年度的 AI 顶会和顶刊已经出炉，在此把关于 Federated Learning 的部分筛选出来，以供后续学习，整理内容已同步在我的 [Blog](https://blog.lfd.world/2023/12/06/2023-ccf-a-federated-learning-conference-yi-kui-chi-xu-geng-xin-zhong/)。
+
+2023 年度的顶会已经出炉，在此把关于 Federated Learning 的部分筛选出来，以供后续学习，整理内容已同步在我的 [Blog](https://blog.lfd.world/2024/11/20/2023-top-federated-learning-conference-review/)。
 
 ## 人工智能
 
