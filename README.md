@@ -5,7 +5,11 @@ A collection of research papers on federated learning.
 
 ### 人工智能
 
-* 2023: AAAI(33), NeurlPS(53), ACL(7), ACL(7), CVPR(31), ICML(), IJCAL(). 
+* 2023: AAAI(33), NeurlPS(53), ACL(7), ACL(7), CVPR(31), ICML(34), IJCAL(20).
+
+### 数据库/数据挖掘/内容检索
+
+* 2023: SIGMOD(0), SIGKDD(20), ICDE(8), SIGIR(5), VLDB(1).
 
 ## TOP JOURNAL
 
